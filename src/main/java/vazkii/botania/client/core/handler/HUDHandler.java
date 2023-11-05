@@ -46,8 +46,10 @@ import vazkii.botania.api.mana.IManaItem;
 import vazkii.botania.api.mana.IManaUsingItem;
 import vazkii.botania.api.recipe.RecipeManaInfusion;
 import vazkii.botania.api.wand.IWandHUD;
+/**
 import vazkii.botania.api.wiki.IWikiProvider;
 import vazkii.botania.api.wiki.WikiHooks;
+*/
 import vazkii.botania.client.core.helper.RenderHelper;
 import vazkii.botania.client.lib.LibResources;
 import vazkii.botania.common.Botania;
@@ -356,7 +358,7 @@ public final class HUDHandler {
 				draw = true;
 			}
 		}
-
+/**
 		if(!draw && pos.entityHit == null) {
 			profiler.startSection("wikiLookup");
 			if(!block.isAir(mc.theWorld, pos.blockX, pos.blockY, pos.blockZ) && !(block instanceof BlockLiquid)) {
@@ -390,7 +392,7 @@ public final class HUDHandler {
 				GL11.glScalef(2F, 2F, 1F);
 			}
 		}
-
+*/
 		GL11.glDisable(GL11.GL_BLEND);
 		GL11.glColor4f(1F, 1F, 1F, 1F);
 		profiler.endSection();

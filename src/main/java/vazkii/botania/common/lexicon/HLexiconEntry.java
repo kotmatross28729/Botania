@@ -17,10 +17,10 @@ public class HLexiconEntry extends ALexiconEntry {
 	public HLexiconEntry(String unlocalizedName, LexiconCategory category) {
 		super(unlocalizedName, category);
 	}
-
+/**
 	@Override
 	public String getWebLink() {
 		return "http://heads.freshcoal.com/usernames.php";
 	}
-
+*/
 }
