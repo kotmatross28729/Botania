@@ -39,8 +39,10 @@ import vazkii.botania.api.lexicon.multiblock.IMultiblockRenderHook;
 import vazkii.botania.api.lexicon.multiblock.Multiblock;
 import vazkii.botania.api.lexicon.multiblock.MultiblockSet;
 import vazkii.botania.api.lexicon.multiblock.component.AnyComponent;
+/**
 import vazkii.botania.api.wiki.IWikiProvider;
 import vazkii.botania.api.wiki.WikiHooks;
+*/
 import vazkii.botania.client.challenge.ModChallenges;
 import vazkii.botania.client.core.handler.BaubleRenderHandler;
 import vazkii.botania.client.core.handler.BotaniaPlayerController;
@@ -400,7 +402,7 @@ public class ClientProxy extends CommonProxy {
 			((IExtendedPlayerController) mc.playerController).setReachDistanceExtension(Math.max(0, ((IExtendedPlayerController) mc.playerController).getReachDistanceExtension() + reach));
 		}
 	}
-
+/**
 	@Override
 	public boolean openWikiPage(World world, Block block, MovingObjectPosition pos) {
 		IWikiProvider wiki = WikiHooks.getWikiFor(block);
@@ -416,7 +418,7 @@ public class ClientProxy extends CommonProxy {
 		}
 		return false;
 	}
-
+*/
 	@Override
 	public void playRecordClientSided(World world, int x, int y, int z, ItemRecord record) {
 		Minecraft mc = Minecraft.getMinecraft();

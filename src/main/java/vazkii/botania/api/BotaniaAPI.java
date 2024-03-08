@@ -49,9 +49,12 @@ import vazkii.botania.api.recipe.RecipeRuneAltar;
 import vazkii.botania.api.subtile.SubTileEntity;
 import vazkii.botania.api.subtile.signature.BasicSignature;
 import vazkii.botania.api.subtile.signature.SubTileSignature;
+
+/**
 import vazkii.botania.api.wiki.IWikiProvider;
 import vazkii.botania.api.wiki.SimpleWikiProvider;
 import vazkii.botania.api.wiki.WikiHooks;
+*/
 
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
@@ -207,7 +210,7 @@ public final class BotaniaAPI {
 		addSeed(Items.nether_wart, Blocks.nether_wart);
 		addSeed(Items.pumpkin_seeds, Blocks.pumpkin_stem);
 		addSeed(Items.melon_seeds, Blocks.melon_stem);
-
+/**
 		registerModWiki("Minecraft", new SimpleWikiProvider("Minecraft Wiki", "http://minecraft.gamepedia.com/%s"));
 
 		IWikiProvider technicWiki = new SimpleWikiProvider("Technic Wiki", "http://wiki.technicpack.net/%s");
@@ -235,7 +238,7 @@ public final class BotaniaAPI {
 		registerModWiki("GanysSurface", new SimpleWikiProvider("Gany's Surface Wiki", "http://ganys-surface.wikia.com/wiki/%s"));
 		registerModWiki("GanysNether", new SimpleWikiProvider("Gany's Nether Wiki", "http://ganys-nether.wikia.com/wiki/%s"));
 		registerModWiki("GanysEnd", new SimpleWikiProvider("Gany's End Wiki", "http://ganys-end.wikia.com/wiki/%s"));
-
+*/
 		registerPaintableBlock(Blocks.stained_glass);
 		registerPaintableBlock(Blocks.stained_glass_pane);
 		registerPaintableBlock(Blocks.stained_hardened_clay);
@@ -644,11 +647,11 @@ public final class BotaniaAPI {
 	/**
 	 * Registers a Wiki provider for a mod so it uses that instead of the fallback
 	 * FTB wiki. Make sure to call this on PostInit only!
-	 */
+
 	public static void registerModWiki(String mod, IWikiProvider provider) {
 		WikiHooks.registerModWiki(mod, provider);
 	}
-
+*/
 	public static Class<? extends SubTileEntity> getSubTileMapping(String key) {
 		if(!subTiles.containsKey(key))
 			key = "";

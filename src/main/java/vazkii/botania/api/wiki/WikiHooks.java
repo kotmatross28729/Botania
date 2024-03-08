@@ -8,6 +8,7 @@
  * 
  * File Created @ [Sep 2, 2014, 6:05:03 PM (GMT)]
  */
+/**
 package vazkii.botania.api.wiki;
 
 import java.util.HashMap;
@@ -40,3 +41,4 @@ public class WikiHooks {
 	}
 
 }
+*/

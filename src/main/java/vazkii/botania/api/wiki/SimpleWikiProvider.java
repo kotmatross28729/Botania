@@ -8,6 +8,7 @@
  * 
  * File Created @ [Sep 2, 2014, 5:58:39 PM (GMT)]
  */
+/**
 package vazkii.botania.api.wiki;
 
 import net.minecraft.block.Block;
@@ -88,3 +89,4 @@ public class SimpleWikiProvider implements IWikiProvider {
 	}
 
 }
+*/
